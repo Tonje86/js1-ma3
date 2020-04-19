@@ -5,6 +5,16 @@ const letters = (a, b) => a - b;
 
 // question 2
 
+fetch(gamesUrl)
+    .then(function(response) {
+        return response.json();
+    })
+    .then(function(json) {
+        console.dir(json);
+    })
+    .catch(function(error) {
+        console.dir(error);
+    });
 
 // question 3
 
@@ -50,4 +60,7 @@ newLi.appendChild(document.createTextNode("Parrot"));
 document.querySelector("ul").insertBefore(newLi, elephantLi);
 
 
-// question 7
+// question 7 and question 2
+
+// I am having a hard time understanding this fetch api stuff. No matter how much 
+// I read and google it, I am still struggling.
