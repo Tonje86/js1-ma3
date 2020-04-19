@@ -63,4 +63,4 @@ document.querySelector("ul").insertBefore(newLi, elephantLi);
 // question 7 and question 2
 
 // I am having a hard time understanding this fetch api stuff. No matter how much 
-// I read and google it, I am still struggling.
+// I read, watch videos and google it, I am still struggling.
